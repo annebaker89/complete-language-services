@@ -1,0 +1,5 @@
+{
+  "Main": "src/components/Main",
+  "applicationStyles": "src/styles/app.scss",
+  "TranslationService": "src/services/TranslationService"
+}

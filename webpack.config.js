@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 
+var aliases = require('./aliases.json');
+
 module.exports = {
     entry: [
         'script!jquery/dist/jquery.min.js',
@@ -21,10 +23,7 @@ module.exports = {
     },
     resolve: {
         root: __dirname,
-        alias: {
-            Main: 'src/components/Main',
-            applicationStyles: 'src/styles/app.scss'
-        },
+        alias: aliases,
         extensions: ['', '.js', '.jsx']
     },
     module: {
