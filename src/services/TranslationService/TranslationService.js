@@ -1,25 +1,24 @@
 import i18next from 'i18next';
-import XHR from 'i18next-xhr-backend';
+var enTranslations = require('json!src/locales/translation-en.json');
+var arTranslations = require('json!src/locales/translation-ar.json');
 
 export default {
   /* Initializes translation library asynchronously (returns a promise) */
-  load() {
+  load(language) {
     const i18nextConfig = {
-      fallbackLng: 'en',
-      lng: 'en',
-      backend: {
-        loadPath: '/locales/{{ns}}-{{lng}}.json',
-      },
+      lng: language,
+      resources: {
+        en: enTranslations,
+        ar: arTranslations
+      }
     };
 
     return new Promise((resolve, reject) => {
-      i18next.use(XHR).init(i18nextConfig, (error) => {
-        if (error) {
-          reject('Translation service could not load translation files');
-        } else {
-          resolve();
-        }
-      });
+      i18next.init(i18nextConfig, (err, t) => {
+            // initialized and ready to go!
+            console.log('Loaded translation resources.'); // hw = 'hello world'
+          }
+      );
     });
   },
 };

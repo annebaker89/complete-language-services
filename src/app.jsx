@@ -1,26 +1,22 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+var { Route, Router, IndexRoute, hashHistory } = require('react-router');
+var Page = require('Page');
 var Main = require('Main');
-var TranslationService = require('TranslationService');
+var MainAr = require('MainAr');
 
 // Load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
 
 // App css
-require('style!css!sass!applicationStyles')
-
-TranslationService.default.load().then(() => {
-        console.log('Loaded translations.');
-    })
-    .catch((error) => {
-        console.log('Could not load translations.');
-    });
+require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
     <Router history={hashHistory}>
-        <Route path="/" component={Main}>
+        <Route path="/" components={Page}>
+            <IndexRoute component={Main} />
+            <Route path="ar" component={MainAr} />
         </Route>
     </Router>,
     document.getElementById('app')

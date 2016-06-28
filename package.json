@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "homepage": "http://www.clslanguages.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annebaker89/complete-language-services"
+  },
   "author": "Hilary McReynolds",
   "license": "ISC",
   "dependencies": {
@@ -27,6 +32,7 @@
     "css-loader": "^0.23.1",
     "foundation-sites": "^6.2.0",
     "jquery": "^2.2.1",
+    "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "script-loader": "^0.6.1",

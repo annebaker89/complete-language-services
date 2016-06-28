@@ -1,5 +1,7 @@
 {
+  "Page": "src/components/Page",
   "Main": "src/components/Main",
+  "MainAr": "src/components/MainAr",
   "applicationStyles": "src/styles/app.scss",
   "TranslationService": "src/services/TranslationService"
 }

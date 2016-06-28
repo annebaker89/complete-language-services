@@ -24,7 +24,7 @@ module.exports = {
     resolve: {
         root: __dirname,
         alias: aliases,
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx', '.json']
     },
     module: {
         loaders: [

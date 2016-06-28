@@ -5,7 +5,7 @@ var TranslationService = require('TranslationService');
 
 var Main = React.createClass({
     componentWillMount: function() {
-        TranslationService.default.load('en').then(() => {
+        TranslationService.default.load('ar').then(() => {
             console.log('Loaded translations.');
             this.forceUpdate();
         });

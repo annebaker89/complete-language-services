@@ -13,9 +13,7 @@ var Main = React.createClass({
     render: function() {
         return (
             <div>
-                <p>{i18n.t('key')}</p>
-                <button className="button small lang" data-lang="en">Eng</button>
-                <button className="button small lang" data-lang="ar">Arb</button>
+                {this.props.children}
             </div>
         );
     }
