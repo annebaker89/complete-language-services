@@ -1,6 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var { Route, Router, IndexRoute, hashHistory } = require('react-router');
+import { Route, Router, IndexRoute, useRouterHistory } from 'react-router';
+import { createHashHistory } from 'history'
+
 var Page = require('Page');
 var Main = require('Main');
 var MainAr = require('MainAr');
@@ -12,8 +14,10 @@ $(document).foundation();
 // App css
 require('style!css!sass!applicationStyles');
 
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
+
 ReactDOM.render(
-    <Router history={hashHistory}>
+    <Router history={appHistory}>
         <Route path="/" components={Page}>
             <IndexRoute component={Main} />
             <Route path="ar" component={MainAr} />
