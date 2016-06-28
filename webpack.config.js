@@ -19,12 +19,13 @@ module.exports = {
     ],
     output: {
         path: __dirname,
-        filename: './public/bundle.js'
+        filename: './public/bundle.js',
+        publicPath: __dirname + '/assets'
     },
     resolve: {
         root: __dirname,
         alias: aliases,
-        extensions: ['', '.js', '.jsx', '.json']
+        extensions: ['', '.js', '.jsx', '.json', '.scss']
     },
     module: {
         loaders: [
@@ -35,6 +36,18 @@ module.exports = {
                 },
                 test: /\.jsx?$/,
                 exclude: /(node_modules|bower_components)/
+            },
+            {
+                test: /\.json$/,
+                loader: 'json-loader',
+            },
+            {
+                test: /\.scss$/,
+                loader: 'style!css!sass'
+            },
+            {
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader'
             }
         ]
     },

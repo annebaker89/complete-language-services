@@ -1,7 +1,8 @@
 {
-  "Page": "src/components/Page",
-  "Main": "src/components/Main",
-  "MainAr": "src/components/MainAr",
+  "Page": "src/views/Page",
+  "Main": "src/views/Main",
+  "MainAr": "src/views/MainAr",
+  "Banner": "src/components/Banner",
   "applicationStyles": "src/styles/app.scss",
   "TranslationService": "src/services/TranslationService"
 }

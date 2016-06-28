@@ -1,6 +1,6 @@
 import i18next from 'i18next';
-var enTranslations = require('json!src/locales/translation-en.json');
-var arTranslations = require('json!src/locales/translation-ar.json');
+var enTranslations = require('src/locales/translation-en.json');
+var arTranslations = require('src/locales/translation-ar.json');
 
 export default {
   /* Initializes translation library asynchronously (returns a promise) */

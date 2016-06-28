@@ -1,0 +1,11 @@
+// Base styles.
+
+@import "./variables/colors";
+
+body {
+  background-color: $background-color;
+}
+
+ul {
+  list-style: none;
+}
