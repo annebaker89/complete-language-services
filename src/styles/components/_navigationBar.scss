@@ -1,0 +1,46 @@
+// Stylings for the Navigation Bar.
+
+.b-navigationBar-wrapper {
+  background-color: $secondary-gold;
+}
+
+.b-navigationBar {
+  @include display-flex ();
+  justify-content: flex-start;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+
+  padding: 0;
+  margin: 0;
+  background-color: $secondary-gold;
+
+  @include mq($from: $tablet) {
+    max-width: $desktop;
+    margin: auto;
+
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+  }
+}
+
+.b-navigationBar-element {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  a {
+    color: white;
+  }
+
+  &:hover {
+    background: $primary-gold;
+  }
+
+  @include mq($from: $tablet) {
+    border: none;
+    text-align: left;
+    &:last-of-type a {
+      border-bottom: none;
+    }
+  }
+}

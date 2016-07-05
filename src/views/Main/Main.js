@@ -3,6 +3,7 @@ var React = require('react');
 var TranslationService = require('TranslationService');
 
 var Banner = require('Banner');
+var NavigationBar = require('NavigationBar');
 
 var Main = React.createClass({
     componentWillMount: function() {
@@ -15,6 +16,7 @@ var Main = React.createClass({
         return (
             <div>
                 <Banner />
+                <NavigationBar />
             </div>
         );
     }

@@ -3,6 +3,7 @@
   "Main": "src/views/Main",
   "MainAr": "src/views/MainAr",
   "Banner": "src/components/Banner",
+  "NavigationBar": "src/components/NavigationBar",
   "applicationStyles": "src/styles/app.scss",
   "TranslationService": "src/services/TranslationService"
 }

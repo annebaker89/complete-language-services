@@ -1,5 +1,13 @@
 {
   "translation": {
-    "key": "hello world"
+    "navigation": {
+      "about": "About us",
+      "translation": "Translation",
+      "interpreting": "Interpreting",
+      "proofreading": "Proof-reading",
+      "english": "English Courses",
+      "consultation": "Consultation",
+      "tutoring": "Tutoring"
+    }
   }
 }
