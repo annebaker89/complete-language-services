@@ -1,0 +1,9 @@
+// Stylings for the Main content.
+
+.b-pageContent {
+  padding: 48px 24px;
+  @include mq($from: $tablet) {
+    max-width: 800px;
+    margin: auto;
+  }
+}

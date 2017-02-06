@@ -9,7 +9,6 @@
   justify-content: flex-start;
   -webkit-flex-flow: column wrap;
   flex-flow: column wrap;
-
   padding: 0;
   margin: 0;
   background-color: $secondary-gold;
@@ -17,7 +16,7 @@
   @include mq($from: $tablet) {
     max-width: $desktop;
     margin: auto;
-
+    justify-content: center;
     flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
   }

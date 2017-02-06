@@ -3,6 +3,9 @@ var i18n = require('i18next');
 
 var TranslationService = require('TranslationService');
 
+var Banner = require('Banner');
+var NavigationBar = require('NavigationBar');
+
 var Page = React.createClass({
     componentWillMount: function() {
         TranslationService.default.load('en').then(() => {
@@ -13,7 +16,13 @@ var Page = React.createClass({
     render: function() {
         return (
             <div>
-                {this.props.children}
+                <div>
+                    <Banner />
+                    <NavigationBar />
+                </div>
+                <div>
+                    {this.props.children}
+                </div>
             </div>
         );
     }

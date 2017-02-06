@@ -14,10 +14,7 @@ var Main = React.createClass({
     },
     render: function() {
         return (
-            <div>
-                <Banner />
-                <NavigationBar />
-            </div>
+            <div></div>
         );
     }
 });

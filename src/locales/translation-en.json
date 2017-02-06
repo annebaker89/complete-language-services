@@ -8,6 +8,47 @@
       "english": "English Courses",
       "consultation": "Consultation",
       "tutoring": "Tutoring"
+    },
+    "aboutContent": {
+      "part1": "As one of the fastest-growing International language services in London, we aim to provide comprehensive language services and cultural understanding. Our mission is to provide bespoke educational packages and make a difference in society through education.",
+      "part2": "We have a team of professionals who offer complete language services to help clients overcome communication barriers, achieve goals and grow as individuals. It is our passion for building connections across-cultures that continues to drive our excellent service delivery. We are proud to fulfil the multicultural communication needs in multiple languages and a variety of dialects.",
+      "part3": "Our complete language services include translation, interpreting, telephone interpreting, face-to-face interpreting and private tutoring as well as educational consultations. Our consultants and teachers have several years of teaching experience and are highly qualified to teach in academic and professional settings. Our dedicated and enthusiastic tutors, have experience in diverse disciplines, and can tailor lessons to your needs.",
+      "part4": "To stay up-to-date on all our language related services, friend us on Facebook and follow us on Twitter and Instagram. You can also contact us directly via Skype and Viber or send us an email on"
+    },
+    "translationContent": {
+      "part1": "Complete Language Services specialises in translation. We provide professional translation for your text/document whatever it is. Our professional translators are carefully selected and always translate into their native language. This is your guarantee of premium quality every single time! As translation experts, we attach great importance to the cultural aspect of your translation and make sure that your message is communicated with attention to all linguistic and cultural codes. All our translators and interpreters are hand-picked on the basis of their knowledge of various industries, their professionalism and their mother tongue and all have undergone thorough quality assurance, so you can always be sure that your documents are in the very best of hands."
+    },
+    "interpretingContent": {
+      "part1": "Complete Language Services provides interpretation for a vast number of language combinations and dialects. Interpreting skills are essential for all types of communication. Complete Language Services provides interpretation for a vast number of language combinations and dialects.",
+      "part2": "Our interpreters will help you with simultaneous and consecutive interpreting. Whether your requirement is for personal or professional purposes.",
+      "part3": "Our native speaker interpreters are capable of effectively conveying the dialogue quickly and accurately.",
+      "telephone": {
+        "title": "Phone interpreting",
+        "part1": "Telephone interpreting, we provide a team of professional interpreters who can interpret for you over the phone whether you are based in the UK or abroad."
+      }
+    },
+    "proofreadingContent": {
+      "part1": "All our proof-readers are highly qualified native speakers and experienced in all disciplines.",
+      "part2": "Our professional team who are experts at academic proofreading will proof-read and correct the grammatical mistakes and structure of  your essays, coursework, dissertations, research papers and theses and also offer feedback.",
+      "part3": "We offer proofreading services in a variety of languages including English (British, American), Arabic (MSA, Dialect), French and many others.",
+      "part4": "We offer quick return of your work and offer express service. Our team always delivers high-quality proofreading and editing services within the timeframe requirement.",
+      "part5": "Our professional team ensures complete confidentiality of your documents."
+    },
+    "englishContent": {
+      "part1": "If you want to study or improve your English, the UK has the best language schools that offer language courses and preparation courses for the IELTS exam.",
+      "part2": "If English is not your first language, most UK schools, colleges and universities will ask you to demonstrate your English language skills as part of your course application.",
+      "part3": "We can help find the right course for you. Our expert team can give you advice on the best course for your needs and also help you with your application, accommodation and answer all your questions about studying and living in the UK."
+    },
+    "consultationContent": {
+      "part1": "We offer a unique assessment service to identify your individual needs. We are proud to help connecting people to higher education.",
+      "part2": "As part of our consultation service we process applications for English, undergraduate and postgraduate courses at UK universities, colleges and English schools.",
+      "part3": "Based upon our assessment, our team of experts will offer advice on courses, institutions best suited to you and your needs.",
+      "part4": "Our team has 10 years of experience in UK academic institutions and can give you the best advice to whatever you are looking for whether it is a question regarding your application process, course or accommodation.",
+      "part5": "Our consultation services include advice on understanding intercultural differences especially for overseas students and provide cultural awareness to help promote clearer communication."
+    },
+    "tutoringContent": {
+      "part1": "Complete Language Service provides tutors with many years’ experience in helping learners to pass exams, maximise their potential, and develop a deeper understanding of their course. Whether you need extra support for a specific subject, a general boost in confidence or motivation, we have tutors available in all subjects.",
+      "part2": "Complete Language Services is proud to have a professional team of academic tutors who specialise in teaching language for social, professional and academic purposes. Whatever your needs, our language tutors will help you improve your linguistic skills."
     }
   }
 }

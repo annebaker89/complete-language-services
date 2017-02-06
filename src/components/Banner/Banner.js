@@ -1,4 +1,6 @@
 var React = require('react');
+var { Link } = require('react-router');
+
 var i18n = require('i18next');
 
 var Banner = React.createClass({
@@ -6,7 +8,7 @@ var Banner = React.createClass({
         return (
             <div className="b-banner">
                 <div className="b-banner-content">
-                    <div className="b-banner-logo" />
+                    <Link to="/"><div className="b-banner-logo" /></Link>
                     <div className="b-banner-title">
                         <ul>
                             <li>Complete Language Services</li>
