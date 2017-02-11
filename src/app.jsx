@@ -13,6 +13,7 @@ var Proofreading = require('Proofreading');
 var English = require('English');
 var Consultation = require('Consultation');
 var Tutoring = require('Tutoring');
+var Contact = require('Contact');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -35,6 +36,7 @@ ReactDOM.render(
             <Route path="/english" component={English} />
             <Route path="/consultation" component={Consultation} />
             <Route path="/tutoring" component={Tutoring} />
+            <Route path="/contact" component={Contact} />
         </Route>
     </Router>,
     document.getElementById('app')

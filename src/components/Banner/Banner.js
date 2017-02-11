@@ -12,7 +12,7 @@ var Banner = React.createClass({
                     <div className="b-banner-title">
                         <ul>
                             <li>Complete Language Services</li>
-                            <li>كاملةاللغة خدمات</li>
+                            <li>خدمات كاملةاللغة</li>
                             <li>Services Complètes de Langues</li>
                             <li>完整的语言服务</li>
                         </ul>

@@ -12,6 +12,7 @@
   "Contact": "src/views/Contact",
   "Banner": "src/components/Banner",
   "NavigationBar": "src/components/NavigationBar",
+  "FooterBar": "src/components/FooterBar",
   "applicationStyles": "src/styles/app.scss",
   "TranslationService": "src/services/TranslationService"
 }

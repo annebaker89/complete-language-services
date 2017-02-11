@@ -7,13 +7,13 @@ var NavigationBar = React.createClass({
         return (
             <div className="b-navigationBar-wrapper">
                 <div className="b-navigationBar">
-                    <div className="b-navigationBar-element"><Link to="/about">{i18n.t('navigation.about')}</Link></div>
-                    <div className="b-navigationBar-element"><Link to="/translation">{i18n.t('navigation.translation')}</Link></div>
-                    <div className="b-navigationBar-element"><Link to="/interpreting">{i18n.t('navigation.interpreting')}</Link></div>
-                    <div className="b-navigationBar-element"><Link to="/proofreading">{i18n.t('navigation.proofreading')}</Link></div>
-                    <div className="b-navigationBar-element"><Link to="/english">{i18n.t('navigation.english')}</Link></div>
-                    <div className="b-navigationBar-element"><Link to="/consultation">{i18n.t('navigation.consultation')}</Link></div>
-                    <div className="b-navigationBar-element"><Link to="/tutoring">{i18n.t('navigation.tutoring')}</Link></div>
+                    <Link to="/about"><span className="b-navigationBar-element">{i18n.t('navigation.about')}</span></Link>
+                    <Link to="/translation"><span className="b-navigationBar-element">{i18n.t('navigation.translation')}</span></Link>
+                    <Link to="/interpreting"><span className="b-navigationBar-element">{i18n.t('navigation.interpreting')}</span></Link>
+                    <Link to="/proofreading"><span className="b-navigationBar-element">{i18n.t('navigation.proofreading')}</span></Link>
+                    <Link to="/english"><span className="b-navigationBar-element">{i18n.t('navigation.english')}</span></Link>
+                    <Link to="/consultation"><span className="b-navigationBar-element">{i18n.t('navigation.consultation')}</span></Link>
+                    <Link to="/tutoring"><span className="b-navigationBar-element">{i18n.t('navigation.tutoring')}</span></Link>
                 </div>
             </div>
         );

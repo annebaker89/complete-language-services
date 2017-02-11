@@ -25,7 +25,11 @@ $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
 @import './3rdParty/mq';
 
 body {
-  background-color: $background-color;
+  background: url("./resources/body-background.png");
+  background-repeat: repeat;
+  background-color: $banner-background;
+  background-position: bottom center;
+  color: $content-text;
 }
 
 ul {

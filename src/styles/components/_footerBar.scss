@@ -1,0 +1,39 @@
+// Stylings for the Footer Bar.
+
+.b-footerBar-wrapper {
+  background-color: $primary-teal;
+  margin-bottom: 72px;
+}
+
+.b-footerBar {
+  padding: 12px 0px;
+  position: relative;
+
+  @include mq($from: $tablet) {
+    max-width: $desktop;
+    margin: auto;
+  }
+}
+
+.b-footerBar-contact-wrapper {
+  display: block;
+  background-color: $banner-background;
+  height: 60px;
+  width: 60px;
+  border: 2px ridge $primary-gold;
+  transform: rotate(45deg) translateX(0);
+  margin: auto;
+
+  @include mq($from: $tablet) {
+    position: absolute;
+    right: 0px;
+    transform: rotate(45deg) translateX(-70%);
+  }
+}
+
+.b-footerBar-contact {
+  display: block;
+  text-align: center;
+  color: $content-text;
+  transform: rotate(-45deg) translateX(-25%) translateY(42%);
+}

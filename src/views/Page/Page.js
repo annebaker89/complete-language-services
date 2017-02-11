@@ -5,6 +5,7 @@ var TranslationService = require('TranslationService');
 
 var Banner = require('Banner');
 var NavigationBar = require('NavigationBar');
+var FooterBar = require('FooterBar');
 
 var Page = React.createClass({
     componentWillMount: function() {
@@ -20,9 +21,10 @@ var Page = React.createClass({
                     <Banner />
                     <NavigationBar />
                 </div>
-                <div>
+                <div className="b-pageContent-wrapper">
                     {this.props.children}
                 </div>
+                <FooterBar />
             </div>
         );
     }

@@ -23,13 +23,12 @@
 }
 
 .b-navigationBar-element {
+  display: block;
   text-align: center;
   padding: 10px;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  a {
-    color: white;
-  }
+  color: white;
 
   &:hover {
     background: $primary-gold;
